@@ -88,6 +88,7 @@ function say (d) {
 alert(say);
 */
 //-------------стрелочные функции
+/*
 let  ask = (question, yes, no) => { if (confirm(question)) yes(); else no();};
 
 ask(
@@ -96,4 +97,5 @@ ask(
     ()=> alert('no')
 
 );
+*/
 
