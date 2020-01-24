@@ -46,8 +46,54 @@ switch (number) {
 }
 */
 
+//2.14----------------------------
+
+/*
+function checkAge(age) {
+    return  confirm('Родители разрешили?');
+}
+alert(checkAge());
+*/
+//------------------------------------
+
+/*
+function getMin(a,b) {
+return a<b ? a:b;
+
+}
+alert(getMin(10,10));
+*/
+//--------------------------------------
+
+/*
+let a = prompt('1 number');
+let b = prompt('2 number');
 
 
+function getDegree(a, b) {
+    return a ** b;
 
+}
 
+alert(getDegree(a, b));
+*/
+//2.15---------------------------------------
+/*
+function say (d) {
+
+    alert(d);
+
+};
+
+alert(say);
+*/
+//-------------стрелочные функции
+let  ask = (question, yes, no) => { if (confirm(question)) yes(); else no();};
+
+ask(
+    'вы согласны?',
+    ()=> alert('yes'),
+    ()=> alert('no')
+
+);
 
