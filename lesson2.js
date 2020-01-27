@@ -106,3 +106,20 @@ calculator.read();
 alert("Sum=" + calculator.sum());
 alert("Mul=" + calculator.mul());
 */
+
+//------------------------------------ constructor
+
+/*function Accumulator(startingValue) {
+    this.value = startingValue;
+    this.read = function (readValue) {
+        this.value += +prompt('value?', '50')+readValue;
+
+    };
+
+}
+
+let accumulator=new Accumulator(100);
+accumulator.read(5);
+accumulator.read(5);
+alert(accumulator.value);*/
+
