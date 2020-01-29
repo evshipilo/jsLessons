@@ -123,3 +123,4 @@ accumulator.read(5);
 accumulator.read(5);
 alert(accumulator.value);*/
 
+
